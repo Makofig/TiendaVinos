@@ -20,7 +20,7 @@ const crearUsuario = async (req, res) =>{
         const values = [name, email, hashedPassword, rol]; 
         const [rows] = await connection.query(sql, values); 
         connection.release(); 
-        res.status(200).json({success: true, messaage: 'Usuario registrado correctamente'}); 
+        res.status(200).json({success: true, message: 'Usuario registrado correctamente'}); 
     }catch(error){
         console.error('Se produjo un error al intentar cargar el usuario:', error); 
         res.status(500).json({success: false, message: 'Error al intentar registrar el usuario'});
