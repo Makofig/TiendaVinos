@@ -8,10 +8,8 @@ Proyecto desarrollado como parte del curso **Codo a Codo**, orientado a la creac
 - **Express.js**
 - **JavaScript**
 - **HTML5 & CSS3**
-- **EJS (Plantillas)**
 - **MySQL**
 - **JWT (para autenticación)**
-- **Bootstrap / Tailwind (según preferencia)**
 
 ## 📦 Funcionalidades Principales
 
